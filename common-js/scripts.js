@@ -48,14 +48,9 @@
 	});
 	
 	
-	$('a[href="#"]').on('click', function(event){
-		return;
-	});
-	
-	
-	if ( $.isFunction($.fn.fluidbox) ) {
-		$('a').fluidbox();
-	}
+	//if ( $.isFunction($.fn.fluidbox) ) {
+	//	$('a').fluidbox();
+	//}
 	
 	var countCounterUp = 0;
 	
